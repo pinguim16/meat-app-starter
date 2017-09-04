@@ -18,7 +18,9 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.route';
 import { ShoppingCartComponent } from './restaurant-detail/shopping-cart/shopping-cart.component';
 import { ShoppingCartService } from './restaurant-detail/shopping-cart/shopping-cart.service';
-import { InputComponent } from './input/input/input.component';
+import { InputComponent } from './shared/input/input.component';
+import { RadioComponent } from './shared/radio/radio.component';
+import { OrderItemsComponent } from './restaurant-detail/order/order-items/order-items.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { InputComponent } from './input/input/input.component';
     ReviewsComponent,
     OrderComponent,
     InputComponent,
+    RadioComponent,
+    OrderItemsComponent,
   ],
   imports: [
     BrowserModule,
